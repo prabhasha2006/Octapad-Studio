@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./media/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.octapad-home {
+    height: 100vh;
+}
+
+/*scroll bar*/
+::-webkit-scrollbar {
+    width: 3px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(206, 249, 255);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 0, 0);
+    width: 5px;
+    border-radius: 50px;
+}
